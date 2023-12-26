@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Responsive Tips Calculator](https://www.frontendmentor.io/solutions/responsive-tips-calculator-KITB4Mpb-C)
+- Live Site URL: [Live Site](https://salmon982-tips-calculator.netlify.app/)
 
 ## My process
 
