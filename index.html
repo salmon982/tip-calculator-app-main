@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>Spli<br>Tter</header>
+    <main>
+      <div class="form">
+        <form action="/" method="GET" id="form">
+          <div class="bill-container">
+            <label for="bill">Bill</label>
+            <div class="input-container">
+              <img src="./images/icon-dollar.svg" alt="Dollar Sign" id="dollar">
+              <input type="number" id="bill" name="bill" placeholder="0">
+            </div>
+          </div>
+          <div class="tip-container">
+            <label for="tip" id="tip-label">Select Tip %</label>
+            <div class="radio-container">
+              <div class="tip">
+                <input type="radio" id="five" name="tip" value="0.05" class="radio-input">
+                <div class="percent-container">
+                  <label for="five">5%</label>
+                </div>
+              </div>
+              <div class="tip">
+                <input type="radio" id="ten" name="tip" value="0.1" class="radio-input">
+                <div class="percent-container">
+                  <label for="ten">10%</label>
+                </div>
+              </div>
+              <div class="tip">
+                <input type="radio" id="fifteen" name="tip" value="0.15" class="radio-input">
+                <div class="percent-container">
+                  <label for="fifteen">15%</label>
+                </div>
+              </div>
+              <div class="tip">
+                <input type="radio" id="twenty-five" name="tip" value="0.25" class="radio-input">
+                <div class="percent-container">
+                  <label for="twenty-five">25%</label>
+                </div>
+              </div>
+              <div class="tip">
+                <input type="radio" id="fifty" name="tip" value="0.5" class="radio-input">
+                <div class="percent-container">
+                  <label for="fifty">50%</label>
+                </div>
+              </div>
+              <div class="tip">
+                <input type="number" id="custom" name="tip" placeholder="Custom">
+              </div>
+            </div>
+          </div>
+          <div class="people-container">
+            <label for="people">Number of People</label>
+            <div class="input-container">
+              <img src="./images/icon-person.svg" alt="Person Icon" id="person">
+              <input type="number" id="people" name="people" placeholder="0">
+              <p class="error-message">Can't be zero</p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="result">
+        <div class="tip-results">
+          <div class="tip-amount">
+            <h3>Tip Amount<br><span>/ person</span></h3>
+            <h1>$0.00</h1>
+          </div>
+          <div class="tip-total">
+            <h3>Total<br><span>/ person</span></h3>
+            <h1>$0.00</h1>
+          </div>
+        </div>
+        <div class="button disabled">Reset</div>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
